@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>rdw-image demo</title>
+  <meta content="initial-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no" name="viewport">
+  <style>
+    html,body {
+      margin: 0;
+      padding: 0;
+    }
+    img {
+      display: block;
+      margin: 10vh auto;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <img class="half" src="car_small.jpg" alt="lamborghini"
+    srcset="car_small.jpg 250w, car_small@2x.jpg 500w, car_medium.jpg 800w, car_large.jpg 1280w, car_medium@2x.jpg 1600w, car_large@2x.jpg 2560w"
+    sizes="100vw"
+  >
+</body>
+</html>
